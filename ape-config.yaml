@@ -1,1 +1,8 @@
 name: nft-project
+
+solidity:
+  # If needed, you can specify the version:
+  # version: "0.8.28"
+
+  import_remapping:
+    - "@openzeppelin=node_modules/@openzeppelin/"
