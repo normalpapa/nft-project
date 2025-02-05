@@ -2,8 +2,8 @@
 pragma solidity ^0.8.0;
 
 // Use the dot-slash path into `contracts/@openzeppelin/...`:
-import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
-import "@openzeppelin/contracts/access/Ownable.sol";
+import "contracts/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+import "contracts/contracts/access/Ownable.sol";
 
 contract MyNFT is ERC721URIStorage, Ownable {
     uint256 private _tokenIds;

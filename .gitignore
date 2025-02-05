@@ -8,3 +8,14 @@
 .pytest_cache
 .python-version
 __pycache__
+
+# Node modules
+node_modules/
+
+# Foundry's build artifacts
+out/
+cache/
+broadcast/
+
+# Environment variables
+.env
